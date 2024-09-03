@@ -1,0 +1,96 @@
+@media only screen and (max-width: 800px) {
+  .navbar-right-options {
+    display: none !important;
+  }
+  .navbar-right-menubar {
+    display: block !important;
+  }
+  .navbar-container {
+    position: inherit !important;
+    width: 100%;
+  }
+}
+
+.navbar-container {
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  position: fixed;
+  /* background-color: rgba(82, 76, 76, 0.166); */
+  background-color: white;
+  height: 60px;
+  width: 93%;
+  top: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  left: 25px;
+  margin-top: 20px;
+  /* Adding shadow */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); Horizontal offset, vertical offset, blur radius, color */
+}
+
+.navbar-link {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Set text color */
+  font-size: 18px; /* Set font size */
+  padding: 10px 20px; /* Add padding */
+  margin-top: 50px; /* Add top margin */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.navbar-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.navbar-left {
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.navbar-left > a {
+  justify-content: flex-start;
+}
+
+.navbar-right-options {
+  color: var(--section-grey-color);
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-right: 20px;
+  font-weight: 400;
+  /* margin-left: 100px; */
+  position: relative;
+  left: 800px;
+}
+
+.navbar-right-options > a:hover {
+  color: var(--section-color) !important;
+}
+
+.navbar-right-menubar {
+  display: none;
+}
+
+.navbar-menu-options {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 10%;
+  right: 0%;
+  width: 100vw;
+  height: 85vh;
+  background-color: #121212;
+  z-index: 1;
+}
+
+.navbar-menu-options > svg {
+  font-size: 3rem;
+}

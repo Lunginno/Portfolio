@@ -1,0 +1,20 @@
+/* components/About.css */
+.about-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    /* background: linear-gradient(to right, rgb(177, 187, 201), #007bff); */
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    position: relative;
+    top: 100px;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+    position: relative;
+    top: 100px;
+  }
+  
