@@ -6,9 +6,16 @@
   }
   
   .projects-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     position: relative;
-    top: 100px;
+    text-align: center;
+    /* left: 480px; */
+    top: 80px;
+    /* color: white; */
+    letter-spacing: 0.8em; 
+    z-index: 1001;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 80px;
   }
   
   .project {
@@ -18,12 +25,39 @@
   .project h3 {
     font-size: 1.5rem;
     position: relative;
-    top: 100px;
+    top: 20px;
+    letter-spacing: 0.3em;
   }
   
   .project p {
     font-size: 1rem;
     position: relative;
-    top: 100px;
+    top: 20px;
+  }
+  .projects-section {
+    padding: 20px; /* Add some padding around the section */
+  }
+  
+  .projects-container {
+    display: flex; /* Flexbox layout for projects */
+    gap: 20px; /* Space between projects */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    height: 500px;
+    margin-top: 150px;
+  }
+  
+  .project {
+    background: #f9f9f9; /* Light background for project items */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside project items */
+    text-align: center; /* Center text */
+    width: 450px; /* Fixed width for project items */
+    height: 255px;
+  }
+  
+  .project-image {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded top corners for images */
   }
   

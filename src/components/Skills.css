@@ -1,24 +1,54 @@
 /* components/Skills.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
 .skills-section {
-    padding: 20px;
-    min-height: 100vh;
-    /* background: linear-gradient(to right, rgb(177, 187, 201), #007bff); */
-  }
-  
-  .skills-section h2 {
-    font-size: 2rem;
+  padding: 60px 20px; /* Spacing for the section */
+  background-color: #f4f4f4; /* Background color for contrast */
+  min-height: 100vh; /* Full viewport height */
+  text-align: center; /* Center-align text and items */
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.skills-section h2 {
+  font-size: 3rem;
     position: relative;
-    top: 100px;
-  }
-  
-  .skills-section ul {
-    list-style-type: none;
-    padding: 0;
-    position: relative;
-    top: 100px;
-  }
-  
-  .skills-section li {
-    font-size: 1rem;
-  }
+    text-align: center;
+    /* left: 480px; */
+    top: 20px;
+    /* color: white; */
+    letter-spacing: 0.8em; 
+    z-index: 1001;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+}
+
+.skills-container {
+  display: flex; /* Flexbox layout for skill items */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping to the next line */
+  gap: 200px; /* Space between items */
+  padding: 0px 0; /* Vertical padding for scrolling effect */
+  width: 100%; /* Full width of the parent container */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.skill-item {
+  display: inline-flex; /* Inline Flexbox layout for skill items */
+  flex-direction: column; /* Stack icon and text vertically */
+  align-items: center; /* Center-align items horizontally */
+  max-width: 200px; /* Constrain width to fit larger icons and text */
+}
+
+.skill-item i {
+  font-size: 20rem; /* Larger size for icons */
+  color: #333; /* Icon color */
+  margin-bottom: 20px; /* Space below the icon */
+}
+
+.skill-item p {
+  font-size: 1.5rem; /* Font size for skill text, adjusted for readability */
+  color: #555; /* Text color */
+  margin: 0; /* Remove default margin */
+}
+
   

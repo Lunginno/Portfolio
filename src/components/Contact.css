@@ -1,4 +1,6 @@
 /* components/Contact.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
 .contact-section {
     padding: 20px;
     background-color: #f4f4f4;
@@ -7,9 +9,15 @@
   }
   
   .contact-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     position: relative;
-    top: 100px;
+    text-align: center;
+    /* left: 480px; */
+    top: 50px;
+    /* color: white; */
+    letter-spacing: 0.8em; 
+    z-index: 1001;
+    font-family: 'Times New Roman', Times, serif;
   }
   .contact-section p
   {
@@ -31,4 +39,59 @@
     color: #0073b1;
     text-decoration: none;
   }
+  /* Contact.css */
+
+.contact-section {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light gray background */
+  min-height: 100vh; /* Full viewport height */
+  /* Uncomment if you want a gradient background */
+  /* background: linear-gradient(to right, rgb(177, 187, 201), #007bff); */
+}
+
+.contact-section h2 {
+  font-size: 3rem;
+  text-align: center;
+  top: 80px; /* Space from the top */
+  letter-spacing: 0.8em; /* Spacing between letters */
+  font-family: 'Times New Roman', Times, serif; /* Font family */
+  z-index: 1001; /* Ensure it’s on top */
+  color: #333; /* Dark color for better readability */
+  margin-bottom: 30px; /* Space below the heading */
+}
+
+.contact-section p {
+  text-align: center; /* Center-align text */
+  margin-bottom: 20px; /* Space below the paragraph */
+  color: #555; /* Darker gray for text */
+}
+
+.contact-section ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  text-align: center; /* Center-align list items */
+}
+
+.contact-section li {
+  font-size: 1rem; /* Font size for list items */
+  margin-bottom: 15px; /* Space between list items */
+  display: flex; /* Flexbox layout for icons and text */
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Space between icon and text */
+}
+
+.contact-section a {
+  color: #0073b1; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.contact-section a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.fas, .fab {
+  font-size: 1.5rem; /* Size of the icons */
+  color: #333; /* Icon color */
+}
+
   

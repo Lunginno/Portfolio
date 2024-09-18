@@ -1,20 +1,72 @@
 /* components/About.css */
-.about-section {
+/* .about-section {
     padding: 20px;
     background-color: #f4f4f4;
     min-height: 100vh;
-    /* background: linear-gradient(to right, rgb(177, 187, 201), #007bff); */
-  }
+    background: linear-gradient(to right, rgb(177, 187, 201), #007bff);
+  } */
   
   .about-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     position: relative;
-    top: 100px;
+    top: 150px;
+    /* text-align: center; */
+    left: 480px;
+    top: 210px;
+    /* color: white; */
+    letter-spacing: 0.8em; 
+    z-index: 1001;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .about-section p {
     font-size: 1rem;
     position: relative;
-    top: 100px;
+    top: 200px;
+    left: 520px;
+    /* color: white; */
+    font-size: 1.1rem;
+    z-index: 1001;
   }
+  .about-section {
+    /* padding: 20px; */
+    min-height: 100vh;
+    /* background-color: #2b2b2b; */
+  }
+  .about-content {
+    display: flex;
+    align-items: stretch; /* Stretch the items to the full height of the container */
+  }
+  
+  .about-content p {
+    flex: 1;
+    margin-right: 20px; /* Space between text and image */
+  }
+  
+  .about-image {
+    width: 100%; /* Allow the width to adjust automatically */
+    height: 50%; 
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    position: relative;
+    right: 500px;
+    margin-top: 70px;
+    min-height: 100vh;
+    /* border-radius: 20px; */
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.5); /* Softer, more prominent white-ish shadow */
+}
+.code-image {
+  width: 100%; /* Allow the width to adjust automatically */
+  height: 50%; 
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  position: relative;
+  right: 0px;
+  margin-top: 70px;
+  min-height: 100vh;
+  /* border-radius: 20px; */
+  box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.5); /* Softer, more prominent white-ish shadow */
+}
+
+
+  
+  
   
