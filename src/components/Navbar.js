@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import Logo from '../assets/Logo.png'; // Adjust the path as necessary
 import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="navbar-container">
-      {/* <div className="navbar-left">
+      <div className="navbar-left">
         <Link to="home" spy={true} smooth={true} duration={500}>
-          LS
+          <img src={Logo} alt="Logo" className="navbar-logo" />
         </Link>
-      </div> */}
+      </div>
       <div className="navbar-right-menubar">
         {isMenuOpen ? (
           <div className="navbar-menu-options">

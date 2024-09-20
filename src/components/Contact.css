@@ -93,5 +93,41 @@
   font-size: 1.5rem; /* Size of the icons */
   color: #333; /* Icon color */
 }
+.contact-section {
+  padding: 20px; /* Add some padding */
+}
+
+.contact-content {
+  display: flex; /* Flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+.profile-image {
+  width: 450px; /* Set desired width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Optional: make it a circle */
+  margin-right: 180px; /* Space between image and text */
+  margin-top: 180px;
+}
+
+.contact-details {
+  max-width: 600px; /* Limit the width of the text content */
+}
+.download-cv-button {
+  display: inline-block; /* Make it an inline block */
+  padding: 10px 15px; /* Add padding */
+  margin-top: 120px; /* Space above the button */
+  background-color: white; /* Button background color */
+  color: black; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border: 2px solid black; /* Border color */
+  border-radius: 25px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.download-cv-button:hover {
+  background-color: black; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
 
   
