@@ -12,7 +12,7 @@
     top: 80px;
     /* color: white; */
     letter-spacing: 0.8em; 
-    z-index: 1001;
+    z-index: 999;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 80px;
   }

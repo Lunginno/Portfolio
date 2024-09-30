@@ -15,7 +15,7 @@
     top: 210px;
     /* color: white; */
     letter-spacing: 0.8em; 
-    z-index: 1001;
+    z-index: 999;
     font-family: 'Times New Roman', Times, serif;
   }
   
@@ -26,7 +26,7 @@
     left: 520px;
     /* color: white; */
     font-size: 1.1rem;
-    z-index: 1001;
+    z-index: 999;
   }
   .about-section {
     /* padding: 20px; */
